@@ -10,8 +10,7 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolName": "string"
     },
     "userPoolGroups": {
-      "cognitoBookmarkGroupRole": "string",
-      "poolGroupGroupRole": "string"
+      "bookmarketAuthGroupRole": "string"
     }
   }
 }

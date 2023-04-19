@@ -41,8 +41,7 @@
       "email"
     ],
     "userPoolGroupList": [
-      "cognitoBookmark",
-      "poolGroup"
+      "bookmarketAuth"
     ],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,

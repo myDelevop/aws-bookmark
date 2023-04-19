@@ -1,10 +1,6 @@
 [
   {
-    "groupName": "cognitoBookmark",
+    "groupName": "bookmarketAuth",
     "precedence": 1
-  },
-  {
-    "groupName": "poolGroup",
-    "precedence": 2
   }
 ]
