@@ -1,15 +1,21 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-awsbookmark-dev-212523-authRole",
-      "UnauthRoleArn": "arn:aws:iam::394070527653:role/amplify-awsbookmark-dev-212523-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::394070527653:role/amplify-awsbookmark-dev-212523-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-awsbookmark-dev-212523-deployment",
-      "UnauthRoleName": "amplify-awsbookmark-dev-212523-unauthRole",
-      "StackName": "amplify-awsbookmark-dev-212523",
-      "StackId": "arn:aws:cloudformation:us-east-1:394070527653:stack/amplify-awsbookmark-dev-212523/c5fd2440-de1e-11ed-8baa-12b2d1850d85",
-      "AmplifyAppId": "d1z2k3g0qmshpf"
+      "AuthRoleName": "amplify-bookmarkclient-dev-100803-authRole",
+      "UnauthRoleArn": "arn:aws:iam::394070527653:role/amplify-bookmarkclient-dev-100803-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::394070527653:role/amplify-bookmarkclient-dev-100803-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-bookmarkclient-dev-100803-deployment",
+      "UnauthRoleName": "amplify-bookmarkclient-dev-100803-unauthRole",
+      "StackName": "amplify-bookmarkclient-dev-100803",
+      "StackId": "arn:aws:cloudformation:eu-west-1:394070527653:stack/amplify-bookmarkclient-dev-100803/50cc5e50-de89-11ed-90a1-0a52e78391a9",
+      "AmplifyAppId": "d3ab7ia30fof"
+    },
+    "categories": {
+      "auth": {
+        "bookmarkclientfad32b04": {},
+        "userPoolGroups": {}
+      }
     }
   }
 }

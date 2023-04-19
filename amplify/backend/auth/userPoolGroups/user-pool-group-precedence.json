@@ -1,0 +1,10 @@
+[
+  {
+    "groupName": "cognitoBookmark",
+    "precedence": 1
+  },
+  {
+    "groupName": "poolGroup",
+    "precedence": 2
+  }
+]
