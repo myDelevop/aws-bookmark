@@ -1,20 +1,14 @@
-<template>
-    <h1>DEV Environment: {{ msg }} </h1>
-    <amplify-authenticator>
-      <div>
-        My App
-        <amplify-sign-out></amplify-sign-out>
-      </div>
-    </amplify-authenticator>
-</template>
-  
-  
-<script>
-  export default {
-    name: 'LoginComponent',
-    props: {
-      msg: String
-    }
-  }
+<script setup>
+  import { Authenticator } from "@aws-amplify/ui-vue";
+  import "@aws-amplify/ui-vue/styles.css";
+
 </script>
-  
+
+<template>
+  <authenticator>
+    <template v-slot="{ user, signOut }">
+      <h1>Hello {{ user.username }}!</h1>
+      <button @click="signOut">Sign Out</button>
+    </template>
+  </authenticator>
+</template>
