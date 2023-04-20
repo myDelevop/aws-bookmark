@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "bookmarkclientfad32b04_identitypool_fad32b04",
+    "identityPoolName": "2bookmarkclient55ef135f_identitypool_55ef135f",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "bookmafad32b04",
-    "userPoolName": "bookmarkclientfad32b04_userpool_fad32b04",
+    "resourceNameTruncated": "2bookm55ef135f",
+    "userPoolName": "2bookmarkclient55ef135f_userpool_55ef135f",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,17 +31,17 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "bookmafad32b04_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "2bookm55ef135f_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "fad32b04",
-    "resourceName": "bookmarkclientfad32b04",
+    "sharedId": "55ef135f",
+    "resourceName": "2bookmarkclient55ef135f",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
     "usernameAttributes": [
       "email"
     ],
     "userPoolGroupList": [
-      "bookmarketAuth"
+      "cognitouserpool"
     ],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,

@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
   "auth": {
-    "bookmarkclientfad32b04": {
+    "2bookmarkclient55ef135f": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -10,7 +10,15 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolName": "string"
     },
     "userPoolGroups": {
-      "bookmarketAuthGroupRole": "string"
+      "cognitouserpoolGroupRole": "string"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "HostingBucketName": "string",
+      "Region": "string",
+      "S3BucketSecureURL": "string",
+      "WebsiteURL": "string"
     }
   }
 }

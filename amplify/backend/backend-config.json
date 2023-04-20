@@ -1,6 +1,6 @@
 {
   "auth": {
-    "bookmarkclientfad32b04": {
+    "2bookmarkclient55ef135f": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -36,11 +36,17 @@
             "IdentityPoolId"
           ],
           "category": "auth",
-          "resourceName": "bookmarkclientfad32b04"
+          "resourceName": "2bookmarkclient55ef135f"
         }
       ],
       "providerPlugin": "awscloudformation",
       "service": "Cognito-UserPool-Groups"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
     }
   }
 }
